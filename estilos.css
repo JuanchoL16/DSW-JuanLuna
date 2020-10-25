@@ -1,8 +1,9 @@
 .body{
-    margin: 0;
-    padding: 0;
+    margin: 2;
+    padding: 2;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #808080;
+    align-content: center;
 }
 
 .titulos{
@@ -26,15 +27,6 @@
     align-items: center;
 }
 
-/*.marco{
-    text-decoration: none;
-    height: 80%;
-    width: 85%;
-    max-width: 1368px;
-    margin: 0 auto;
-    color: blanchedalmond;
-}*/
-
 .panel{
     background: #005883;
     color: blanchedalmond;
@@ -45,7 +37,7 @@
     }
 
 nav {
-	float: right;
+	float: left;
 }
 	nav ul {
 		margin: 0;
@@ -67,4 +59,22 @@ nav {
 			
 				nav ul li a:hover {
 					background: #0b76a6;
-				}
+                }
+.contenedor{
+    background-color: #b8b8b8;
+    margin: 0 50px 50px;
+    min-width: 300;
+    align-content: center;
+}
+
+h2{
+    text-align: center;
+    padding: 0;
+}
+
+p{
+    margin: 0 5px 5px;
+    text-align: justify;
+    width: 99%;
+    font-size: 12pt;
+}
