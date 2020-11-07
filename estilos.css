@@ -27,7 +27,7 @@ body {
 
 li a, boton{
     display: inline-block;
-    color: lawngreen;
+    color: rgb(0, 46, 252);
     text-align: center;
     text-decoration: none;
 }
@@ -39,7 +39,7 @@ li a, boton{
 }
 
 .lista a{
-    color: #0b76a6;
+    color: #005883;
     display: block;
     text-align: left;
 }
