@@ -21,6 +21,33 @@ body {
     margin: 0 auto;
 }
 
+.menu li{
+    display: inline-block;
+}
+
+li a, boton{
+    display: inline-block;
+    color: lawngreen;
+    text-align: center;
+    text-decoration: none;
+}
+
+.lista{
+    display: none;
+    background-color: #0b76a6;
+    position: absolute;
+}
+
+.lista a{
+    color: #0b76a6;
+    display: block;
+    text-align: left;
+}
+
+.boton:hover .lista{
+    display: block;
+}
+
 .cabecera {
     display: flex;
     justify-content: space-between;
