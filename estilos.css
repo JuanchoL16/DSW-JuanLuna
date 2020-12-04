@@ -97,6 +97,13 @@ nav ul li a:hover {
     align-content: flex-start;
 }
 
+.contenedor2 {
+    background-color: #dddddd;
+    margin: 0 40px 50px;
+    width:fit-content;
+    align-content: center;
+}
+
 h1{
     text-align: center;
 }
@@ -104,6 +111,10 @@ h1{
 h2 {
     text-align: center;
     padding: 0;
+}
+
+div{
+    align-content: center;
 }
 
 h4{
